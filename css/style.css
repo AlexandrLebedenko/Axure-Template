@@ -1168,7 +1168,7 @@ a {
 }
 
 .axure {
-  background-image: url(/img/axure-bg.png);
+  background-image: url(../img/axure-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1196,12 +1196,12 @@ a {
   font-size: 36px;
   text-transform: uppercase;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .axure-title::after {
   content: "";
   display: block;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   width: 64px;
   margin: 34px auto;
 }
@@ -1215,11 +1215,11 @@ a {
 .axure-button {
   display: block;
   margin: auto;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   background-color: initial;
   padding: 11px 26px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
