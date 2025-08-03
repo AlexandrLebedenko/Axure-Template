@@ -1,0 +1,105 @@
+.social {
+    background-color: #F8EFEF;
+}
+.social-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.social-description {
+    width: 365px;
+    &__title {
+        color: #333333;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 14px;
+        @media (max-width: 768px) {
+            margin-bottom: 0;
+        }
+        @media (max-width: 576px) {
+            margin-bottom: 14px;
+        }  
+    }
+    &__subtitle {
+        color: #86878B;
+        font-size: 14px;
+    }
+    @media (max-width: 768px) {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 14px;
+    }
+    @media (max-width: 576px) {
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 14px;
+    }   
+}
+.social-row {
+    width: 60%;
+		&__list {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+		}
+
+		&__list-item {
+            color: #86878B;
+            font-size: 42px;
+            transition: 300ms;
+            &:active {
+                transform: scale(0.85);
+            }
+		}
+        @media (max-width: 992px) {
+            width: 50%;
+        }
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+        @media (max-width: 576px) {
+            
+        } 
+}
+.fa-brands {
+    transition: 300ms;
+}
+.fa-facebook-f {
+    &:hover {
+        color: blue;
+    }
+}
+.fa-twitter {
+    &:hover {
+        color: lightblue;
+    }
+}
+.fa-google-plus-g {
+    &:hover {
+      color: rgb(80, 209, 80);
+    }
+}
+.fa-pinterest-p {
+    &:hover {
+        color: red;
+    }
+}
+.fa-instagram {
+    &:hover {
+        color: rgb(248, 51, 166);
+    }
+}
+.fa-vk {
+    &:hover {
+        color: rgba(45, 94, 255, 0.808);
+    }
+}
+

@@ -1,0 +1,112 @@
+.procces {
+    background-color: #FFFFFF;
+}
+.procces-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    @media (max-width: 768px) {
+        position: relative;
+    }
+    @media (max-width: 576px) {
+        padding-top: 100px;
+        padding-bottom: 30px;
+    } 
+}
+.procces-tabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+		&__card {
+            align-items: center;
+            padding: 45px 35px;
+            border: none;
+            background: #333333;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            &:last-child {
+                margin: 0;
+            }
+		}
+        &__card-active {
+            background: #EC7979;
+        }
+        @media (max-width: 768px) {
+            z-index: 2;
+        }
+        @media (max-width: 576px) {
+        }
+}
+.procces-main {
+    width: 580px;
+		&__title {
+            font-size: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #000000;            
+            margin-bottom: 58px;
+            @media (max-width: 576px) {
+                margin-bottom: 25px;
+            }
+		}
+		&__description {
+            height: 148px;
+            display: none;
+            text-transform: uppercase;
+            color: #86878B;
+            margin-bottom: 88px;
+            @media (max-width: 576px) {
+                margin-bottom: 68px;
+            }
+            
+		}
+        &__description-active {
+            display: block;
+        }
+		&__button {
+            padding: 12px 25px;
+            color: #FFFFFF;
+            border: none;
+            background-color: #EC7979;
+            transition: 0.3s;
+            &:hover {
+                cursor: pointer;
+            }
+            &:active {
+                transform: scale(0.9);
+            }
+		}
+        @media (max-width: 992px) {
+            max-width: 50%;
+        }
+        @media (max-width: 768px) {
+            max-width: 75%;
+            z-index: 2;
+        }
+        @media (max-width: 576px) {
+            
+        }
+}
+.procces-picture {
+    width: 320px;
+    height: 253px;
+    @media (max-width: 768px) {
+        position: absolute;
+        top: 55%;
+        right: 0;
+    }
+    @media (max-width: 576px) {
+        transform: scale(0.7);
+        top: 65.5%;
+        right: 0;
+    }
+}

@@ -1,0 +1,106 @@
+.about {
+    background-color: #FFFFFF;
+}
+.about-container {
+    padding-top: 80px;
+    padding-bottom: 96px;
+    @media (max-width: 992px) {
+        padding-bottom: 80px;
+    }
+    @media (max-width: 768px) {
+        padding-bottom: 40px;
+    }
+    @media (max-width: 576px) {
+        padding-bottom: 40px;
+    }
+}
+.about-title {
+    font-size: 36px;
+    color: #212121;
+    text-align: center;
+    &::after{
+        content: "";
+        display: block;
+        margin: 34px auto;
+        width: 64px;
+        border: 1px solid #E72424;
+        @media (max-width: 992px) {
+            margin: 24px auto;
+        }
+        @media (max-width: 768px) {
+            margin: 24px auto;
+        }
+        @media (max-width: 576px) {
+            margin: 14px auto;
+        } 
+    }
+}
+.about-subtitle {
+    color: #86878B;
+    text-align: center;
+    margin-bottom: 68px;
+    @media (max-width: 992px) {
+        margin-bottom: 48px;
+    }
+    @media (max-width: 768px) {
+        margin-bottom: 38px;
+    }
+    @media (max-width: 576px) {
+        margin-bottom: 28px;
+    } 
+}
+.about-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+		&__card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 350px;
+            @media (max-width: 992px) {
+                width: 30%;
+            }
+            @media (max-width: 768px) {
+                margin-bottom: 58px;
+            }
+            @media (max-width: 576px) {
+                margin-bottom: 38px;
+            } 
+		}
+		&__card-img {
+            border: 1px solid #D98943;
+            border-radius: 50%;
+            margin-bottom: 30px;
+            padding: 20px 24px;
+            @media (max-width: 992px) {
+                margin-bottom: 25px;
+            }
+            @media (max-width: 768px) {
+                margin-bottom: 18px;
+            }
+            @media (max-width: 576px) {
+                margin-bottom: 12px;
+            } 
+		}
+
+		&__card-header {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333333;
+            margin-bottom: 16px;
+		}
+
+		&__card-description {
+            text-align: center;
+            color: #000000;
+		}
+}
+.img-active {
+    height: 30px;
+    width: 30px;
+}
+

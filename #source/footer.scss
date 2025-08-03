@@ -1,0 +1,42 @@
+.footer {
+    background-color: #000000;
+}
+.footer-container {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.footer-social {
+    margin-bottom: 18px;
+		&__list {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: auto;
+            width: 320px;
+		}
+
+		&__list-item {
+            font-size: 23px;
+            color:  #86878B;
+		}
+}
+.fa-brands {
+}
+.fa-facebook-f {
+}
+.fa-twitter {
+}
+.fa-google-plus-g {
+}
+.fa-pinterest-p {
+}
+.fa-instagram {
+}
+.fa-vk {
+}
+.footer-description {
+    font-size: 12px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
